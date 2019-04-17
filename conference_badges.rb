@@ -25,6 +25,6 @@ end
 def printer(attendees)
   arrayOne = batch_badge_creator(attendees)
   arrayTwo = assign_rooms(attendees)
-  puts "#{arrayOne.first}"
-  puts "#{arrayTwo.first}"
+  puts "#{arrayOne}"
+  puts "#{arrayTwo}"
 end
