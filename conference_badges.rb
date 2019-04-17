@@ -21,3 +21,8 @@ def assign_rooms(speaker_list)
     end
     return rooms
 end
+
+def printer
+  puts "#{batch_badge_creator.first}"
+  puts "#{{assign_rooms.first}}"
+end
