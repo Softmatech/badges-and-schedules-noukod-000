@@ -23,13 +23,7 @@ def assign_rooms(speaker_list)
 end
 
 def printer(attendees)
-  arrayOne = batch_badge_creator(attendees)
-  arrayTwo = assign_rooms(attendees)
-
-  counter = 0
-  arrayOne.each do |badge|
-    puts "Hello, #{badge}! You'll be assigned to room #{counter + 1}!"
-    counter += 1
-  end
-
+    batch_badge_creator(speaker_list).each do |badge|
+        puts badge
+    end
 end
