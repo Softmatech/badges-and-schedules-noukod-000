@@ -28,4 +28,8 @@ def printer(attendees)
     arrayOne.each do |badge|
         puts "#{badge}"
     end
+
+    arrayTwo.each do |pr|
+        puts "#{pr}"
+    end
 end
