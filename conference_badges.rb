@@ -24,6 +24,7 @@ end
 
 def printer(attendees)
   arrayOne = batch_badge_creator(attendees)
+  arrayTwo = assign_rooms(attendees)
     arrayOne.each do |badge|
         puts "#{badge}"
     end
