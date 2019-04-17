@@ -20,4 +20,5 @@ def assign_rooms(speaker_list)
         rooms[counter] = person
         counter += 1
     end
+    return rooms
 end
