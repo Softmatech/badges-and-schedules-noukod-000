@@ -24,5 +24,5 @@ end
 
 def printer
   puts "#{batch_badge_creator.first}"
-  puts "#{{assign_rooms.first}}"
+  puts "#{assign_rooms.first}"
 end
