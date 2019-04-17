@@ -23,6 +23,6 @@ def assign_rooms(speaker_list)
 end
 
 def printer
-  puts "#{batch_badge_creator.first}"
-  puts "#{assign_rooms.first}"
+  puts "#{batch_badge_creator}"
+  puts "#{assign_rooms}"
 end
