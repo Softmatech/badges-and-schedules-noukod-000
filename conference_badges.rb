@@ -29,5 +29,5 @@ def printer(attendees)
   arrayOne.each do |badge|
     puts "#{badge}"
   end
-  
+
 end
