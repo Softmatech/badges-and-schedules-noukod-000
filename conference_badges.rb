@@ -13,7 +13,7 @@ def batch_badge_creator(array_of_name)
 end
 
 def assign_rooms(speaker_list)
-    rooms = Array("room ")
+    rooms = Array("")
     counter = 0
     speaker_list.each do |person|
         rooms[counter] = "Hello, #{person}! You'll be assigned to room #{rooms[counter]}!"
